@@ -12,13 +12,244 @@
     <!--<link rel="stylesheet" href="assets/style/studentportfolio.css">-->
     
 	</head>
-	<body>
-		<h1>Portfolio</h1>
-		<p>I am a veteran with 9 years of combined experience, including specializing on the electrical and environmental systems on military aircraft, 
-			and as a network administration intern.  The skills that I have gained from these dissimilar vocations have given me the invaluable attributes 
-			of an analytical mind and an eye for detail. My competitiveness will give me the edge over anyone else in my field because I can’t accept being 
-			anything but the best. This in turn makes me hard working, disciplined, and determined when it comes to my work. </p>
+	<body class="vsc-initialized">
+    <div id="container">
+        <h1>Portfolio of Xavia Denson</h1>
+
+        <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
+            <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
+            <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+            <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
+            <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
+            <button class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        </div>
+
+        <!-- Begin Home Section -->
+        <div id="Home" class="tabcontent" style="display: block;">
+              <h2>Profile</h2>
+			  <p>I am a veteran with 9 years of combined experience, including specializing on the electrical and environmental systems on military aircraft, 
+				and as a network administration intern.  The skills that I have gained from these dissimilar vocations have given me the invaluable attributes 
+				of an analytical mind and an eye for detail. My competitiveness will give me the edge over anyone else in my field because I can’t accept being 
+				anything but the best. This in turn makes me hard working, disciplined, and determined when it comes to my work. </p>
+              
+            
+              <br>&nbsp;
+              <br>&nbsp;
+              <br>&nbsp;
+              <br>&nbsp;
+        </div>
+
+        <!-- Begin Skills Section -->
+        <div id="Skills" class="tabcontent" style="display: none;">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Java</li>
+                <li>C++</li>
+                
+            </ul>
+        </div>
+
+        <div id="Education" class="tabcontent" style="display: none;">
+          <h2>Education</h2>
+       <!-- Begin Education Section -->
+                <h3>Bachelor of Information Science</h3>
+                <div itemscope="" itemtype="http://schema.org/EducationalOrganization">
+                    <span itemprop="name">UA Little Rock</span> - <a itemprop="url" href="https://ualr.edu/" title="University of Arkansas at Little Rock">https://ualr.edu/</a><br>
+                    <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">2801 S University Ave</span>,
+                        <span itemprop="addressLocality">Little Rock</span>, 
+                        <span itemprop="addressRegion">AR</span>
+                        <span itemprop="postalCode">72114</span>  
+                        <span itemprop="addressCountry">U.S.A.</span>
+                    </span>
+
+                </div>
+                <br>
+
+                <!--<div itemscope="" itemtype="http://schema.org/EducationalOrganization">
+                    <h3>Bachelor of Arts in Physics</h3>
+                    <span itemprop="name">Hendrix College</span> - <a itemprop="url" href="http://www.hendrix.edu/" title="Hendrix College">www.hendrix.edu</a><br>
+                    <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">1600 Washington Ave</span>,
+                        <span itemprop="addressLocality">Conway</span>, 
+                        <span itemprop="addressRegion">AR</span> 
+                        <span itemprop="postalCode">72032</span> 
+                        <span itemprop="addressCountry">U.S.A.</span>
+                    </span>
+                </div>-->
+            <br>
+    <!-- End Education Section -->
+          </div>
+
+        <div id="Accomplishments" class="tabcontent" style="display: none;">
+            <h2>Accomplishments</h2>
+          <p>UNDER CONSTUCTION</p>
+                 
+                 
+                 
+                 
+                
+
+        </div>        
+        
+        <!-- Begin Skills Section -->
+         <div id="Resume" class="tabcontent" style="display: none;">
+            <h2>Resume</h2>
+            <p>You are welcome to download my resume in either <a href="assets/resources/BruceBauerResume.doc">Microsoft Word</a> or <a href="assets/resources/BruceBauerResume.pdf">PDF</a> format.</p>
+            <h2>Experience</h2>
+            <!-- Position #1 -->
+            <div itemscope="" itemtype="http://schema.org/Organization">
+            <h3><span itemprop="jobTitle">System Administator</span></h3>
+            <h4>
+                <span itemprop="name">UA Little Rock MidSOUTH</span> - <span itemprop="url"><a href="http://midsouth.ualr.edu">www.midsouth.ualr.edu</a></span><br>
+                <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">2801 South University Ave.</span>
+                    <span itemprop="addressLocality">Little Rock</span>,
+                    <span itemprop="addressRegion">AR</span>
+                    <span itemprop="postalCode">72204</span>
+                </span>
+            </h4>
+            <p class="time">October 2019 - Present</p>
+            <p></p>
+            <p itemprop="description">I perform various tasks for the IT department </p>
+            <p>Tasks include:</p>
+            <ul>
+                <li>Build and maintain VM Linux Servers</li>
+                <li>Install software on both Windows and IOS machines</li>
+                <li>Manange Users and Workstations on the network</li>
+                <li>Create desktop images</li>
+                <li>Setup and configure eqiptment such as servers and switches</li>
+                <li>Research new software for company use</li>
+            </ul>
+        </div>
+        <hr>
+
+        <!-- Position #2 -->
+        <div itemscope="" itemtype="http://schema.org/Organization">
+            <h3><span itemprop="jobTitle">Mechanic 2: Electrical and Environmental Specialist</span></h3>
+            <h4>
+                <span itemprop="name">VSE Corporation</span> - <span itemprop="url"><a href="https://www.vsecorp.com/">https://www.vsecorp.com/</a></span><br>
+            <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">318 CMSgt Williams Drive</span>
+                <span itemprop="addressLocality">Little Rock Air Force Base</span>,
+                <span itemprop="addressRegion">AR</span>
+                <span itemprop="postalCode">72099</span>
+            </span>
+            </h4>
+            <p class="time">May 2018 - May 2019</p>
+            <p></p>
+            <p itemprop="description">
+                A level two Mechanic on the C-130J. 
+            </p>
+            <ul>
+                <li>Inspected the work of every mechanic on my shift</li>
+                <li>Acted as shift lead for my shop of five mechanics</li>
+                <li>Ensured the accomplishments of tasks with a 100% pass rate on quality assurance inspections</li> 
+              <li>Troubleshot and maintained electrical and environmental systems on multi-million dollar C-130J</li>
+              <li>Helped maintian the logs for the air craft</li>
+              <li>Performed operational checks on system</li>
+            </ul> 
+        </div>
+        <hr>
+
+        <!-- Position #3 -->
+        <div itemscope="" itemtype="http://schema.org/Organization">
+            <h3><span itemprop="jobTitle">Mechanic 1: Electrical and Environmental Specialist </span></h3>
+            <h4><span itemprop="name">Dyncorp International</span> - <span itemprop="url"><a href="https://www.amentum.com/">https://www.amentum.com/</a></span><br>
+            <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">318 CMSgt Williams Drive</span>
+                <span itemprop="addressLocality">Little Rock Air Force Base</span>,
+                <span itemprop="addressRegion">AR</span>
+                <span itemprop="postalCode">72099</span>
+            </span>
+            </h4>
+            <p class="time">September 2017 - May 2018</p>
+            <p></p>
+            <p itemprop="description">
+                A level 1 mechanic on the C-130J aircraft. I perfored regular maintance as well as trouble shot the systems that were my responsibility when they were working improperly.
+            </p>
+            <ul>
+                <li>Fixed and maintained data bases for the C-130J </li>
+                <li>Troubleshot the computers that control the systems on the plane</li>
+                <li>Maintained aircraft by lubricating moving parts</li>
+            </ul>
+        </div>
+        <hr>
+
+        <!-- Position #4 -->
+        <div itemscope="" itemtype="http://schema.org/Organization">
+            <h3><span itemprop="jobTitle">Airman</span></h3>
+            <h4><span itemprop="name">United States Air Force</span> - <span itemprop="url"><a href="https://www.airforce.com/">https://www.airforce.com/</a></span><br>
+            <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">1690 Air Force Pentagon</span>
+                <span itemprop="addressLocality">Washington, DC</span>,
+                <span itemprop="postalCode">20330</span>
+            </span>
+            </h4>
+            <p class="time">April 2011 to April 2017</p>
+            <p></p>
+            <p itemprop="description">
+                Aircraft Mechanic: Electrical and Environmental Specialist 
+            </p>
+            <ul>
+                <li>Completed 100% of all assigned maintenance training well ahead of schedule. </li> 
+                <li>Performed regular maintenance on multi-30.1-million-dollar aircraft that led to the safe and successful certification of hundreds of pilots</li>
+                <li>Routinely interpreted schematics, securing a 97% proficiency rate on the multimillion-dollar aircraft</li>
+                <li>Regularly performed wire maintenance and checks on power distribution</li>
+            </ul>
+        </div>
+        <hr>
+                     
+        
+          
+
+        
+        <div id="CoverLetter" class="tabcontent" style="display: none;">
+            <h2>Letter of Introduction</h2>
+            <p>Hello,</p>
+            <p>I will be graduating at the end of the fall with a Bachelor of Information Science with a minor in Information Assurance from the University of Arkansas at Little Rock. I would love to discuss a position doing cyber security on your IT team. I am extremely passionate about cyber security and am always opened to learning. </p>
+
+            <p>I would be a great fit for any company because I have always worked hard at whatever job I have had from being a grocery store cashier to a jet mechanic and I will strive to be the best which mean being a good team player and having a willingness to learn. </p>
+			
+			<p>For continued learning I regularly read security alerts and listen to several podcasts to stay up to date on current trends. I am also taking extra  cyber security courses that are provided to veterans as well as studying for my Network + and Security + certifications.</p>
+			
+			<p>I currently live in North Little Rock, AR and am willing to relocate.</p>
+			          
+
+            <p>I believe that I have the broad range of experience, skills, IT knowledge, as a mechanic, and professional track record to manage and maintain any infrastucture.  I would appreciate the opportunity to discuss with you how I can assist your company.  Feel free to contact me anytime at  (404) 823-7684.  I will be available at your convenience.</p>
+
+            <p>Thank you for your consideration,</p>
+       
+            <p>Xavia Denson<br>
+                1641 Rockwater Blvd<br>
+                North Little Rock, Arkansas 72114<br>
+                (404) 823-7684<br>
+                xavia.denson@gmail.com<br>
+            </p>
+        </div>
+
+        <div id="Contact" class="tabcontent" style="display: none;">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Phone: (404) 823-7684</li>
+                <li>Email: <a href="mailto:blbauer@ualr.edu">xavia.denson@gmail.com Us</a>  </li>
+                <li>Address: 1641 Rockwater Blvd, North Little Rock, AR 72114</li>
+                <!--<li>Website: <a href="http://brucebauer.info">http://brucebauer.info</a></li>-->
+            </ul>
+        </div>
+    
+    
+</div>
+<script type="text/javascript" src="assets/scripts/index.js"></script>
 
 
-	</body>
+</body>
 </html>
