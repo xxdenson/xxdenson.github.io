@@ -1,0 +1,53 @@
+body{
+  font-family: Lucida Console, Lucida Sans, Arial, Verdana, Tahoma, Serif;
+  background-image: url("webpage-background.jpg");
+  background-repeat: no-repeat;
+  
+}
+
+ 
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+h2 {
+  color: #074AD9;
+}
+
+h3{
+  color: #074AD9;
+}
+
+img[src*="webpage-image-1.jpg"] {
+  border: 1px solid #000000;
+  float: right;
+  background: transparent;
+  box-shadow: none;
+}
+
+
+.alert {
+  text-align: left;
+  color: #990000;
+}
+
+
+#question {
+  text-align: left;
+  color: #074AD9;
+}
