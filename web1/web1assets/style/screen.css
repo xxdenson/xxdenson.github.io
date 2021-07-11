@@ -18,6 +18,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-image: url("/web1/web1assets/web1images/webpage-header.jpg");
 }
 
 .topnav a:hover {
