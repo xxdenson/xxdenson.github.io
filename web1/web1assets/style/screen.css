@@ -1,6 +1,6 @@
 body{
   font-family: Lucida Console, Lucida Sans, Arial, Verdana, Tahoma, Serif;
-  background-image: url("../web1/web1assets/web1images/webpage-background.jpg");
+  background-image: url("/web1assets/web1images/webpage-background.jpg");
   background-repeat: no-repeat;
   
 }
@@ -18,7 +18,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  background-image: url("../web1/web1assets/web1images/webpage-header.jpg");
+  background-image: url("/web1assets/web1images/webpage-header.jpg");
 }
 
 .topnav a:hover {
