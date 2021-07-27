@@ -9,12 +9,13 @@ body{
 }
 
  
-.topnav {
+nav {
   background-color: #000000;
   overflow: hidden;
+  background-image: url("web1/web1assets/web1images/webpage-header.jpg");
 }
 
-.topnav a {
+nav a {
   float: left;
   color: #ffffff;
   text-align: center;
@@ -23,7 +24,7 @@ body{
   font-size: 17px;
 }
 
-.topnav a:hover {
+nav a:hover {
   background-color: #d3d3d3;
   color: black;
 }
