@@ -1,6 +1,7 @@
 body{
   font-family: Lucida Console, Lucida Sans, Arial, Verdana, Tahoma, Serif;
- 
+   margin-left: auto;
+   margin-right: auto;
   
 }
 
@@ -32,7 +33,7 @@ h3{
   color: #074AD9;
 }
 
-img[src*="webpage-image-1.jpg"] {
+img {
   border: 1px solid #000000;
   float: right;
   background: transparent;
